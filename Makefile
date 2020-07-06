@@ -1,6 +1,7 @@
 XCODEBUILD := xcodebuild
 BUILD_FLAGS = -scheme $(SCHEME) -destination $(DESTINATION)
 
+
 SCHEME ?= $(TARGET)-$(PLATFORM)
 TARGET ?= Kickstarter-Framework
 PLATFORM ?= iOS
